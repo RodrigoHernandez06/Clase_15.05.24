@@ -7,11 +7,11 @@ int main(){
 
     cout<<"Bienvenido a la boleteria electronica del estadio XYZ. Que entrada desea comprar: \n"
         <<"MAXIMO 4 POR PERSONA\n"
-        <<"1 - Sol General\n"
-        <<"2 - Sol Preferente\n"
-        <<"3 - Sombra\n"
-        <<"4 - Tribuna\n"
-        <<"5 - Platea\n";
+        <<"1 - Sol General ($3.00)\n"
+        <<"2 - Sol Preferente ($5.00)\n"
+        <<"3 - Sombra ($8.00)\n"
+        <<"4 - Tribuna ($15.00)\n"
+        <<"5 - Platea ($20.00)\n";
     cin>>ticket;
 
     switch(ticket){
